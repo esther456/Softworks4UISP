@@ -1,3 +1,16 @@
-public class DataBase extends JFrame
+import javax.awt.event.*;
+import java.swing.*;
+
+public class DataBase extends JFrame implements ActionListener
 {
+  //constructor
+  public DataBase ()
+  {
+  
+  }
+  
+  public static void main (String []args)
+  {
+    new Database ();
+  }
 }
